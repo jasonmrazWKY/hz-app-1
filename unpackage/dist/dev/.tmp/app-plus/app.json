@@ -1,0 +1,75 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/register/register",
+    "pages/Detailed1/Detailed1",
+    "pages/SweepCode/SweepCode",
+    "pages/SweepCode/HandCode",
+    "pages/Summary/Summary",
+    "pages/HistoricalOutput/HistoricalOutput",
+    "pages/HistoricalSummary/HistoricalSummary",
+    "pages/worktype/worktype",
+    "pages/LabourCost/LabourCost",
+    "pages/Procedure/Procedure",
+    "pages/admin/admin",
+    "pages/user/user",
+    "pages/admin/ProcessCard/ProcessCard",
+    "pages/admin/GenerateScanned/GenerateScanned",
+    "pages/admin/GeneratingUnscanned/GeneratingUnscanned",
+    "pages/admin/EmployeeStatistics/EmployeeStatistics",
+    "pages/admin/EmployeeProcessStatistics/EmployeeProcessStatistics",
+    "pages/admin/EmployeeWageRanking/EmployeeWageRanking",
+    "pages/Ssgs/Ssgs",
+    "pages/Ssgs/HandSsgs",
+    "pages/admin/NumberProcedure/NumberProcedure",
+    "pages/admin/NumberInventory/NumberInventory",
+    "pages/admin/EmployeeInformation/EmployeeInformation",
+    "pages/admin/ChangePassword/ChangePassword",
+    "pages/info/info",
+    "pages/info/info1",
+    "pages/worktype/chooseWorktype",
+    "pages/SweepCode/SweepCode1"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#ffac60",
+    "backgroundColor": "#ffac60"
+  },
+  "tabBar": {
+    "color": "#CCCCCC",
+    "selectedColor": "#000000",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/img/home_0.png",
+        "selectedIconPath": "static/img/home_1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/admin/admin",
+        "iconPath": "static/img/manager_0.png",
+        "selectedIconPath": "static/img/manager_1.png",
+        "text": "管理"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/img/me_0.png",
+        "selectedIconPath": "static/img/me_1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "nvueCompiler": "weex",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "弘兆移动工票",
+  "compilerVersion": "2.0.1",
+  "usingComponents": {}
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+                CSS.supports('top: constant(a)'))
+            document.write(
+                '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+                (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"i]::-webkit-search-cancel-button {
+                display: none;
+            }
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"弘兆移动工票","entryPagePath":"pages/login/login.html","page":{"pages/login/login.html":{"window":{"navigationBarTitleText":"","usingComponents":{}}},"pages/index/index.html":{"window":{"navigationBarTitleText":"首页","usingComponents":{"uni-grid":"/components/uni-grid/uni-grid"}}},"pages/register/register.html":{"window":{"navigationBarTitleText":"网络设置","usingComponents":{"uni-icon":"/components/uni-icon/uni-icon"}}},"pages/Detailed1/Detailed1.html":{"window":{"navigationBarTitleText":"今日产量明细","usingComponents":{"t-table":"/components/t-table/t-table","t-th":"/components/t-table/t-th","t-tr":"/components/t-table/t-tr","t-td":"/components/t-table/t-td"}}},"pages/SweepCode/SweepCode.html":{"window":{"navigationBarTitleText":"扫码计件","usingComponents":{"t-table":"/components/t-table/t-table","t-th":"/components/t-table/t-th","t-tr":"/components/t-table/t-tr","t-td":"/components/t-table/t-td"}}},"pages/SweepCode/HandCode.html":{"window":{"navigationBarTitleText":"手动计件","usingComponents":{"t-table":"/components/t-table/t-table","t-th":"/components/t-table/t-th","t-tr":"/components/t-table/t-tr","t-td":"/components/t-table/t-td"}}},"pages/Summary/Summary.html":{"window":{"navigationBarTitleText":"今日汇总","usingComponents":{"t-table":"/components/t-table/t-table","t-th":"/components/t-table/t-th","t-tr":"/components/t-table/t-tr","t-td":"/components/t-table/t-td"}}},"pages/HistoricalOutput/HistoricalOutput.html":{"window":{"navigationBarTitleText":"历史产量明细","usingComponents":{"rui-date-picker":"/components/rattenking-dtpicker/rattenking-dtpicker","t-table":"/components/t-table/t-table","t-th":"/components/t-table/t-th","t-tr":"/components/t-table/t-tr","t-td":"/components/t-table/t-td"}}},"pages/HistoricalSummary/HistoricalSummary.html":{"window":{"navigationBarTitleText":"历史产量汇总","usingComponents":{"rui-date-picker":"/components/rattenking-dtpicker/rattenking-dtpicker","t-table":"/components/t-table/t-table","t-th":"/components/t-table/t-th","t-tr":"/components/t-table/t-tr","t-td":"/components/t-table/t-td"}}},"pages/worktype/worktype.html":{"window":{"navigationBarTitleText":"绑定工序菜单","usingComponents":{}}},"pages/LabourCost/LabourCost.html":{"window":{"navigationBarTitleText":"工价查询","usingComponents":{"t-table":"/components/t-table/t-table","t-th":"/components/t-table/t-th","t-tr":"/components/t-table/t-tr","t-td":"/components/t-table/t-td"}}},"pages/Procedure/Procedure.html":{"window":{"navigationBarTitleText":"工序进度","usingComponents":{"t-table":"/components/t-table/t-table","t-th":"/components/t-table/t-th","t-tr":"/components/t-table/t-tr","t-td":"/components/t-table/t-td"}}},"pages/admin/admin.html":{"window":{"navigationBarTitleText":"管理","usingComponents":{"uni-grid":"/components/uni-grid/uni-grid"}}},"pages/user/user.html":{"window":{"navigationBarTitleText":"我的","usingComponents":{"uni-list":"/components/uni-list/uni-list","uni-list-item":"/components/uni-list-item/uni-list-item"}}},"pages/admin/ProcessCard/ProcessCard.html":{"window":{"navigationBarTitleText":"流程卡发放","usingComponents":{"rui-date-picker":"/components/rattenking-dtpicker/rattenking-dtpicker","t-table":"/components/t-table/t-table","t-th":"/components/t-table/t-th","t-tr":"/components/t-table/t-tr","t-td":"/components/t-table/t-td"}}},"pages/admin/GenerateScanned/GenerateScanned.html":{"window":{"navigationBarTitleText":"生成查询-已扫描","usingComponents":{"rui-date-picker":"/components/rattenking-dtpicker/rattenking-dtpicker","t-table":"/components/t-table/t-table","t-th":"/components/t-table/t-th","t-tr":"/components/t-table/t-tr","t-td":"/components/t-table/t-td"}}},"pages/admin/GeneratingUnscanned/GeneratingUnscanned.html":{"window":{"navigationBarTitleText":"生成查询-未扫描","usingComponents":{"rui-date-picker":"/components/rattenking-dtpicker/rattenking-dtpicker","t-table":"/components/t-table/t-table","t-th":"/components/t-table/t-th","t-tr":"/components/t-table/t-tr","t-td":"/components/t-table/t-td"}}},"pages/admin/EmployeeStatistics/EmployeeStatistics.html":{"window":{"navigationBarTitleText":"员工货号统计","usingComponents":{"rui-date-picker":"/components/rattenking-dtpicker/rattenking-dtpicker","t-table":"/components/t-table/t-table","t-th":"/components/t-table/t-th","t-tr":"/components/t-table/t-tr","t-td":"/components/t-table/t-td"}}},"pages/admin/EmployeeProcessStatistics/EmployeeProcessStatistics.html":{"window":{"navigationBarTitleText":"员工工序统计","usingComponents":{"rui-date-picker":"/components/rattenking-dtpicker/rattenking-dtpicker","t-table":"/components/t-table/t-table","t-th":"/components/t-table/t-th","t-tr":"/components/t-table/t-tr","t-td":"/components/t-table/t-td"}}},"pages/admin/EmployeeWageRanking/EmployeeWageRanking.html":{"window":{"navigationBarTitleText":"员工工资排名","usingComponents":{"rui-date-picker":"/components/rattenking-dtpicker/rattenking-dtpicker","t-table":"/components/t-table/t-table","t-th":"/components/t-table/t-th","t-tr":"/components/t-table/t-tr","t-td":"/components/t-table/t-td"}}},"pages/Ssgs/Ssgs.html":{"window":{"navigationBarTitleText":"生产改数","usingComponents":{"t-table":"/components/t-table/t-table","t-th":"/components/t-table/t-th","t-tr":"/components/t-table/t-tr","t-td":"/components/t-table/t-td"}}},"pages/Ssgs/HandSsgs.html":{"window":{"navigationBarTitleText":"手动改数","usingComponents":{"t-table":"/components/t-table/t-table","t-th":"/components/t-table/t-th","t-tr":"/components/t-table/t-tr","t-td":"/components/t-table/t-td"}}},"pages/admin/NumberProcedure/NumberProcedure.html":{"window":{"navigationBarTitleText":"货号工序库存","usingComponents":{"rui-date-picker":"/components/rattenking-dtpicker/rattenking-dtpicker","t-table":"/components/t-table/t-table","t-th":"/components/t-table/t-th","t-tr":"/components/t-table/t-tr","t-td":"/components/t-table/t-td"}}},"pages/admin/NumberInventory/NumberInventory.html":{"window":{"navigationBarTitleText":"货号库存查询","usingComponents":{"rui-date-picker":"/components/rattenking-dtpicker/rattenking-dtpicker","t-table":"/components/t-table/t-table","t-th":"/components/t-table/t-th","t-tr":"/components/t-table/t-tr","t-td":"/components/t-table/t-td"}}},"pages/admin/EmployeeInformation/EmployeeInformation.html":{"window":{"navigationBarTitleText":"员工信息查询","usingComponents":{}}},"pages/admin/ChangePassword/ChangePassword.html":{"window":{"navigationBarTitleText":"修改密码","usingComponents":{}}},"pages/info/info.html":{"window":{"navigationBarTitleText":"参数","usingComponents":{"uni-popup":"/components/uni-popup/uni-popup"}}}},"global":{"window":{"navigationBarTextStyle":"white","navigationBarTitleText":"","navigationBarBackgroundColor":"#ffac60","backgroundColor":"#ffac60"}},"tabBar":{"color":"#CCCCCC","selectedColor":"#000000","backgroundColor":"#FFFFFF","borderStyle":"black","list":[{"pagePath":"pages/index/index.html","iconPath":"static/img/home_0.png","selectedIconPath":"static/img/home_1.png","text":"首页"},{"pagePath":"pages/admin/admin.html","iconPath":"static/img/manager_0.png","selectedIconPath":"static/img/manager_1.png","text":"管理"},{"pagePath":"pages/user/user.html","iconPath":"static/img/me_0.png","selectedIconPath":"static/img/me_1.png","text":"我的"}],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/login/login","pages/index/index","pages/register/register","pages/Detailed1/Detailed1","pages/SweepCode/SweepCode","pages/SweepCode/HandCode","pages/Summary/Summary","pages/HistoricalOutput/HistoricalOutput","pages/HistoricalSummary/HistoricalSummary","pages/worktype/worktype","pages/LabourCost/LabourCost","pages/Procedure/Procedure","pages/admin/admin","pages/user/user","pages/admin/ProcessCard/ProcessCard","pages/admin/GenerateScanned/GenerateScanned","pages/admin/GeneratingUnscanned/GeneratingUnscanned","pages/admin/EmployeeStatistics/EmployeeStatistics","pages/admin/EmployeeProcessStatistics/EmployeeProcessStatistics","pages/admin/EmployeeWageRanking/EmployeeWageRanking","pages/Ssgs/Ssgs","pages/Ssgs/HandSsgs","pages/admin/NumberProcedure/NumberProcedure","pages/admin/NumberInventory/NumberInventory","pages/admin/EmployeeInformation/EmployeeInformation","pages/admin/ChangePassword/ChangePassword","pages/info/info"],"subPackages":[],"nvueCompiler":"weex","splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"2.0.1","usingComponents":{}}
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                var wxss = page.replace('.html', '.wxss')
+                if (
+                    typeof __wxAppCode__ !== 'undefined' &&
+                    __wxAppCode__.hasOwnProperty(wxss)
+                ) {
+                    var setCssToHead = __wxAppCode__[wxss]
+                    typeof setCssToHead === 'function' && setCssToHead()
+                    document.dispatchEvent(new CustomEvent("generateFuncReady", {
+                        detail: {
+                            generateFunc: $gwx(page.replace('.html', '.wxml'))
+                        }
+                    }));
+                } else {
+                    plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+                }
+            };
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

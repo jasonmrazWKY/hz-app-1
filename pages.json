@@ -1,0 +1,161 @@
+{
+    "pages" : [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/login/login",
+		     "style" : {"navigationBarTitleText" : ""}
+		},
+        {
+            "path" : "pages/index/index",
+            "style" : {
+                "navigationBarTitleText" : "首页"
+            }
+        }
+        ,{
+            "path" : "pages/register/register",
+            "style" : {
+				 "navigationBarTitleText" : "网络设置"
+			}
+        }
+        ,{
+            "path" : "pages/Detailed1/Detailed1",
+            "style" : {"navigationBarTitleText" : "今日产量明细"}
+        }
+        ,{
+            "path" : "pages/SweepCode/SweepCode",
+             "style" : {"navigationBarTitleText" : "扫码计件"}
+        }
+        ,{
+            "path" : "pages/SweepCode/HandCode",
+            "style" : {"navigationBarTitleText" : "手动计件"}
+        }
+        ,{
+            "path" : "pages/Summary/Summary",
+            "style" : {"navigationBarTitleText" : "今日汇总"}
+        }
+        ,{
+            "path" : "pages/HistoricalOutput/HistoricalOutput",
+            "style" : {"navigationBarTitleText" : "历史产量明细" }
+			
+        }
+        ,{
+            "path" : "pages/HistoricalSummary/HistoricalSummary",
+             "style" : {"navigationBarTitleText" : "历史产量汇总"}
+        }
+        ,{
+            "path" : "pages/worktype/worktype",
+            "style" : {"navigationBarTitleText" : "绑定工序菜单"}
+        }
+        ,{
+            "path" : "pages/LabourCost/LabourCost",
+            "style" : {"navigationBarTitleText" : "工价查询"}
+        }
+        ,{
+            "path" : "pages/Procedure/Procedure",
+            "style" : {"navigationBarTitleText" : "工序进度"}
+        }
+        ,{
+            "path" : "pages/admin/admin",
+            "style" : {"navigationBarTitleText" : "管理"}
+        }
+        ,{
+            "path" : "pages/user/user",
+           "style" : {"navigationBarTitleText" : "我的"}
+        }
+        ,{
+            "path" : "pages/admin/ProcessCard/ProcessCard",
+            "style" : {"navigationBarTitleText" : "流转/裁床单汇总"}
+        }
+        ,{
+            "path" : "pages/admin/GenerateScanned/GenerateScanned",
+            "style" : {"navigationBarTitleText" : "生产查询-已扫描"}
+        }
+        ,{
+            "path" : "pages/admin/GeneratingUnscanned/GeneratingUnscanned",
+			"style" : {"navigationBarTitleText" : "生产查询-未扫描"}
+        }
+        ,{
+            "path" : "pages/admin/EmployeeStatistics/EmployeeStatistics",
+            "style" : {"navigationBarTitleText" : "员工货号统计"}
+        }
+        ,{
+            "path" : "pages/admin/EmployeeProcessStatistics/EmployeeProcessStatistics",
+            "style" : {"navigationBarTitleText" : "员工工序统计"}
+        }
+        ,{
+            "path" : "pages/admin/EmployeeWageRanking/EmployeeWageRanking",
+            "style" : {"navigationBarTitleText" : "员工工资排名"}
+        }
+        ,{
+            "path" : "pages/Ssgs/Ssgs",
+            "style" : {"navigationBarTitleText" : "实收改数"}
+        },
+		{
+		    "path" : "pages/Ssgs/HandSsgs",
+		    "style" : {"navigationBarTitleText" : "手动改数"}
+		}
+        ,{
+            "path" : "pages/admin/NumberProcedure/NumberProcedure",
+            "style" : {"navigationBarTitleText" : "货号工序库存"}
+        }
+        ,{
+            "path" : "pages/admin/NumberInventory/NumberInventory",
+            "style" : {"navigationBarTitleText" : "货号库存查询"}
+        }
+        ,{
+            "path" : "pages/admin/EmployeeInformation/EmployeeInformation",
+            "style" : {"navigationBarTitleText" : "员工信息查询"}
+        }
+        ,{
+            "path" : "pages/admin/ChangePassword/ChangePassword",
+            "style" : {"navigationBarTitleText" : "修改密码"}
+        }
+        ,{
+            "path" : "pages/info/info",
+            "style" : {"navigationBarTitleText" : "更多查询"}
+        },
+		{
+		    "path" : "pages/info/info1",
+		    "style" : {"navigationBarTitleText" : "更多查询"}
+		},
+		{
+		    "path" : "pages/worktype/chooseWorktype",
+		    "style" : {"navigationBarTitleText" : "选择工序"}
+		},
+		{
+		    "path" : "pages/SweepCode/SweepCode1",
+		    "style" : {"navigationBarTitleText" : "扫描计件"}
+		}
+    ],
+    "globalStyle" : {
+        "navigationBarTextStyle" : "white",
+        "navigationBarTitleText" : "",
+        "navigationBarBackgroundColor" : "#ffac60",
+        "backgroundColor" : "#ffac60"
+    },
+	"tabBar": {
+		"color": "#CCCCCC",
+		"selectedColor": "#000000",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/img/home_0.png",
+				"selectedIconPath": "static/img/home_1.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/admin/admin",
+				"iconPath": "static/img/manager_0.png",
+				"selectedIconPath": "static/img/manager_1.png",
+				"text": "管理"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/img/me_0.png",
+				"selectedIconPath": "static/img/me_1.png",
+				"text": "我的"
+			}
+		]
+	} 
+}

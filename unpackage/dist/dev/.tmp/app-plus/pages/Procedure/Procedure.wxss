@@ -1,0 +1,40 @@
+
+.btn{
+	margin:auto;
+	width: 90%;
+	left:0;
+	right:0;
+	bottom:60rpx;
+	background: rgb(255, 172, 96) !important;
+}
+.uni-list-cell{
+	position: relative;
+}
+.uni-list-cell-db button{
+	position: absolute;
+	right: 20rpx;
+	top: 10rpx;
+	background: rgb(255, 172, 96);
+	color: #FFFFFF;
+	z-index: 99;
+}
+.content{overflow: hidden;}
+.content uni-input{
+	padding-left: 0 !important;
+}
+.uni-input{
+	padding: 0 !important;
+	height: 66rpx;
+	line-height: 66rpx;
+}
+.uni-label{
+	width:140rpx;
+}
+.warp{background: #FFFFFF;margin-top: 40rpx;}
+.t-table .t-tr:nth-child(2n){
+	background: #FFFFFF;
+}
+.t-table .t-tr:nth-child(2n){
+	background: #FFFFFF;
+}
+

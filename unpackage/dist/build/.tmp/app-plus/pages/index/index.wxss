@@ -1,0 +1,66 @@
+
+.uni-list{
+	height: 134rpx;
+	background-color: #ffac60;
+}
+.uni-list:after {
+	background-color: #ffac60;
+}
+.uni-list:before{
+	background-color: #ffac60;
+}
+.uni-media-list-logo image{
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+}
+.uni-media-list-body view{
+	line-height:74rpx;
+	color: #FFFFFF;
+}
+.uni-media-list-body text{
+	float: right;
+	line-height: 74rpx;
+}
+.uni-row{
+	background: #FFAC60;
+	height: 100rpx;
+	color: #FFFFFF;
+	margin-bottom: 24rpx;
+}
+#xian{
+	position: relative;
+}
+#xian::after{
+	position: absolute;
+	content: '';
+	width: 2px;
+	background: rgb(238,238,238);
+	height: 100rpx;
+	right: -1px;
+	top: 10rpx;
+}
+.SweepCode{
+	height: 180rpx;
+	background: #FFFFFF;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin-bottom: 24rpx;
+}
+.uni-grid{
+	background: #FFFFFF;
+}
+.uni-grid view{
+	height: 180rpx
+}
+.content{overflow: hidden;}
+

@@ -1,0 +1,13 @@
+
+.uni-list{
+	margin-bottom: 130rpx;
+}
+/* .btn{
+	margin-top: 30upx;
+	width: 90%;
+	background: rgb(255, 172, 96) !important;
+} */
+.btn{
+	width: 90%;position: fixed;bottom: 24rpx;left: 5%;background: rgb(255, 172, 96) !important;
+}
+

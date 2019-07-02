@@ -1,0 +1,66 @@
+
+.content {
+		height: 92vh;
+}
+.box{
+		background: #FFFFFF;
+		padding: 0 40rpx;
+		padding-top: 2vh;
+		margin-bottom: 24rpx;
+}
+.section {
+		margin-bottom: 24rpx;
+		position: relative;
+		background: #FFFFFF;
+}
+.content input {		
+		height: 66rpx;
+		padding-left:100rpx;
+}
+.section text{
+		position: absolute;
+		top: 10rpx;
+}
+.section button{
+		position: absolute;
+		right: 0;
+		top: 0rpx;
+		background: rgb(255, 172, 96);
+		color: #FFFFFF;
+		z-index: 99;
+}
+.warp{background: #FFFFFF;}
+.warp{background: #FFFFFF;margin-top: 40rpx;}
+.t-table .t-tr:nth-child(2n){
+		background: #FFFFFF;
+}
+.t-table .t-tr:nth-child(2n){
+		background: #FFFFFF;
+}
+.btn{
+		width: 90%;position: fixed;bottom: 24rpx;left: 5%;background: rgb(255, 172, 96) !important;
+}
+.uni-list-cell{
+		position: relative;
+}
+.uni-list-cell-left {
+	   font-size: 14px;
+	   padding: 0 0 0 30rpx;
+}
+.uni-list-cell-db button{
+		position: absolute;
+		right: 20rpx;
+		top: 10rpx;
+		background: rgb(255, 172, 96);
+		color: #FFFFFF;
+		z-index: 99;
+}
+.uni-input{
+		padding: 0 !important;
+		height: 66rpx;
+		line-height: 66rpx;
+}
+.uni-label{
+		width:140rpx;
+}
+

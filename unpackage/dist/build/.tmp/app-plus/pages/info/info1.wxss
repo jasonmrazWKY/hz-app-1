@@ -1,0 +1,41 @@
+
+.btn{
+	margin-top: 40rpx;
+	width: 90%;
+	background: rgb(255, 172, 96);
+}
+.uni-list-cell{
+	position: relative;
+}
+.uni-list-cell-db button{
+	position: absolute;
+	right: 20rpx;
+	top: 10rpx;
+	background: rgb(255, 172, 96);
+	color: #FFFFFF;
+	z-index: 99;
+}
+.content uni-input{
+	padding-left: 0 !important;
+}
+.uni-input{
+	padding: 0 !important;
+	height: 66rpx;
+	line-height: 66rpx;
+}
+.uni-label{
+	width:140rpx;
+}
+.center-box {
+	width: 500rpx;
+	height: 500rpx;
+}
+.uni-list-item {
+	text-align: left;
+	line-height: 80rpx;
+	border-bottom: 1px #f5f5f5 solid;
+}
+.uni-list-item:last-child {
+	border: none;
+}
+

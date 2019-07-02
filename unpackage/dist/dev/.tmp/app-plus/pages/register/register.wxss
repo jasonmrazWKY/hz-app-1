@@ -1,0 +1,26 @@
+
+.content {
+	height: 92vh;
+	background: #FFFFFF;
+	padding: 0 40rpx;
+	padding-top: 2vh;
+}
+.section {
+	margin-bottom: 24rpx;
+	position: relative;
+}
+.content input {
+	border-bottom: 1px solid #CCCCCC;
+	height: 66rpx;
+	padding-left:70rpx;
+}
+.uni-icon{
+	position: absolute;
+	top: 10rpx;
+	left: 0;
+}
+.btn {
+	background: #ffac60;
+	color: #FFFFFF;
+}
+
