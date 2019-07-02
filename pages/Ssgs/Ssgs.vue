@@ -288,7 +288,7 @@
 					}
 				})
 			},
-			okbtn(){                    //按钮重复点击处理问题
+			okbtn(){                        //按钮重复点击处理问题
 				uni.request({
 					url:`https://${this.dk}/updatesssl.aspx`,  //ES6模板字符串
 					data:{
