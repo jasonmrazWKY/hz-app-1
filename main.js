@@ -2,8 +2,6 @@ import Vue from 'vue'
 import App from './App'
 
 Vue.config.productionTip = false
-// Vue.prototype.timer_s = 'timer_s';
-// Vue.prototype.timer_e = 'timer_e';
 Vue.prototype.websiteUrl = 'mpro.ywhzsoft.com';
 App.mpType = 'app'
 
